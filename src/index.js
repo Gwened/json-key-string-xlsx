@@ -1,5 +1,5 @@
 'use strict';
-const XLSX = require('xlsx');
+const XLSX = require('@e965/xlsx');
 
 class XLSX2JSON {
 	/**

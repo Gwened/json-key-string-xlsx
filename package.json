@@ -35,14 +35,13 @@
     "url": "https://github.com/Gwened/json-key-string-xlsx/issues",
     "email": "olivier@corrin.io"
   },
-  "bundleDependencies": [],
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
   },
   "dependencies": {
-    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz"
+    "@e965/xlsx": "^0.20.2-released.0"
   },
   "deprecated": false,
   "description": "Convert between json and xlsx files by key string in a browser or NodeJS.",
@@ -109,5 +108,5 @@
     "test-coverage": "nyc npm run test"
   },
   "types": "./types/index.d.ts",
-  "version": "1.4.3"
+  "version": "1.4.4"
 }
